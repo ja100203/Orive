@@ -1,0 +1,44 @@
+.jounal1{
+    margin-left: 50px;
+    display: flex;
+}
+.jrnalLeft{
+    width: 60%;
+}
+.jrnlTxt{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.jrnlTxt h1{
+    color:rgba(247, 108, 36, 1);
+}
+.jrnlTxt h2{
+    color: black;
+}
+.journalCard{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    width: 700px;
+}
+.jrnalRight{
+margin-top: 120px;
+}
+.jrnlPosts{
+width: 400px;
+height: 650px;
+padding: 35px, 29px, 36px, 29px;
+border-radius: 8px;
+gap: 50px;
+box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+background: rgba(255, 255, 255, 1);
+}
+.jrnlPosts h1{
+    margin: auto;
+    justify-content: left;
+    display: flex;
+    padding: 10px;
+}
