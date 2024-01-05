@@ -1,0 +1,53 @@
+.cardOuter{
+    padding: 50px;
+}
+.cardInner{
+    width: 270px;
+    height: 350px;
+    padding: 10px;
+    box-shadow: 0px 16px 88px 0px rgba(0, 0, 0, 0.08);
+    background: rgba(255, 255, 255, 0.002);
+    border-radius: 5px;
+}
+.cardImage img{
+    width:260px;
+    height: 150px;
+}
+.cardContent{
+width: 300px;
+}
+.cardHeader{
+width: 166px;
+height: 35px;
+border-radius: 5px;
+background-color: rgba(255, 239, 231, 1);
+
+}
+.cardHeader h3{
+    color: rgba(254, 93, 20, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    padding: 5px;
+}
+.cardContent h3{
+    font-size: 14px;
+}
+.cardInfo{
+    display: flex;
+    gap: 40px;
+}
+.Info{
+    display: flex;
+    padding: 10px;
+    gap: 8px;
+}
+.Info span{
+    font-size: 12px;
+    font-weight: 500;
+}
+.solid{
+    width: 260px;
+    justify-content: left;
+}

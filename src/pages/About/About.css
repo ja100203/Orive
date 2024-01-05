@@ -1,0 +1,290 @@
+section{
+    width: 100%;
+    margin-top: 40px;
+    overflow-x: hidden;
+}
+.mission{
+    display: flex;
+    flex-direction: row;
+}
+.missionText{
+    width: 50%;
+    padding: 60px;
+}
+.missionImage img{
+    width: 400px;
+    height: 420px;
+    padding: 40px;
+    margin-top: 50px;
+}
+.missionCaption{
+    color: rgba(247, 108, 36, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.missionHeader{
+ font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(47, 48, 69, 1);
+}
+.missionContent{
+    font-family: DM Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(119, 120, 136, 1);
+}
+.missionExtra ul{
+    list-style-type: none;
+    padding: 0;
+}
+.missionExtra li{
+    margin-bottom: 10px;
+    padding-left: 25px; /* Adjust according to your image width */
+    background: url('../../assets/images/Item.png') left center no-repeat; /* Set your tick mark image */
+    background-size: contain; /* Ensure the image is contained within the li */
+}
+@media screen and (max-width: 750px) {
+    .missionText{
+        width: 300px;
+        padding: 40px;
+    }
+    .missionImage img{
+        width: 220px;
+        height: 300px;
+    }
+    .missionHeader{
+font-size: 20px;
+line-height: 18px;
+margin-bottom: 10px;
+}
+.missionContent{
+    font-size: 12px;
+    line-height: 15px;
+}
+.missionExtra{
+    font-size: 12px;
+}
+}
+
+
+.abtbtn button{
+background: rgba(247, 108, 36, 1);
+height: 50px;
+width: 150px;
+top: 532px;
+padding: 12px, 28px, 12px, 28px;
+border-radius: 8px;
+gap: 10px;
+border-style: none;
+color: white;
+}
+.story{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+}
+.storybg{
+    width: 100%;
+    background: url('../../assets/images/Group\ 73.png') center/cover no-repeat; 
+}
+.storyImg img{
+    position: absolute;
+    width: 400px;
+    height: 450px;
+padding-left: 60px;
+top: 55%;
+left: 25%;
+transform: translate(-50%, -50%);
+display: flex;
+}
+.storyContent{
+position: absolute;
+ width: 500px;
+ height: 450px;
+padding-left: 60px;
+top: 65%;
+left: 65%;
+transform: translate(-50%, -50%);
+display: flex;
+flex-direction: column;
+color: rgba(255, 255, 255, 1);
+}
+.storyHead{
+font-size: 30px;
+font-weight: 700;
+line-height: 60px;
+text-align: left;
+}
+.storyTxt{
+font-size: 14px;
+font-weight: 500;
+text-align: left;
+}
+.storyExtra{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.storyCase{
+    background: white;
+    border-radius: 15px;
+    width: 600px;
+    height: 60px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    color: black;
+    font-size: 10px;
+}
+@media screen and (max-width: 750px) {
+    .storyImg img{
+width: 250px;
+left: 20%;
+}
+.storyContent{
+    width: 280px;
+}
+.storyHead{
+    font-size: 20px;
+    }
+    .storyTxt{
+    font-size: 12px;
+    }
+    .storyCase{
+        font-size: 8px;
+    }
+}
+
+
+.vission{
+    display: flex;
+    flex-direction: row;
+}
+.vissionText{
+    width: 50%;
+    padding: 60px;
+}
+.vissionImg img{
+    width: 400px;
+    height: 420px;
+    padding: 40px;
+    margin-top: 50px;
+}
+.vissionCaption{
+    color: rgba(247, 108, 36, 1);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.vissionHeader{
+ font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(47, 48, 69, 1);
+}
+.vissionContent{
+    font-family: DM Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(119, 120, 136, 1);
+}
+.vissionExtra ul{
+    list-style-type: none;
+    padding: 0;
+}
+.vissionExtra li{
+    margin-bottom: 10px;
+    padding-left: 25px; /* Adjust according to your image width */
+    background: url('../../assets/images/Item.png') left center no-repeat; /* Set your tick mark image */
+    background-size: contain; /* Ensure the image is contained within the li */
+}
+@media screen and (max-width: 750px) {
+    .vissionText{
+        width: 300px;
+        padding: 40px;
+    }
+    .vissionImg img{
+        width: 220px;
+        height: 300px;
+    }
+    .vissionHeader{
+font-size: 20px;
+line-height: 18px;
+margin-bottom: 10px;
+}
+.vissionContent{
+    font-size: 12px;
+    line-height: 15px;
+}
+.vissionExtra{
+    font-size: 12px;
+}
+}
+
+
+.team{
+    background-image: url(../../assets/images/div.AppointmentForm_appointmentAreaWithBgImage__EZQLq\ \(1\).png);
+}
+.teamMain{
+align-items: center;
+justify-content: center;
+margin: 100px;
+}
+.teamProfile{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.teamCaption{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color: rgba(250, 98, 32, 1);
+}
+.teamContent{
+font-size: 30px;
+font-weight: 600;
+text-align: center;
+align-items: center;
+margin: auto;
+width: 600px;
+color: rgba(255, 255, 255, 1);
+}
+.teamProfile img{
+    height: 150px;
+    width: 150px;
+    padding: 50px;
+}
+@media screen and (max-width: 750px) {
+    .teamMain{
+        margin: auto;
+    }
+}

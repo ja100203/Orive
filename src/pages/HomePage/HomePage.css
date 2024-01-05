@@ -1,0 +1,122 @@
+body{
+    overflow-x: hidden;
+}
+.homePageText {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.homePageText h3{
+    font-size: 20px;
+}
+.homePageText h4{
+    font-size: 12px;
+    font-weight: 300;
+}
+.homeBtn button{
+    background: rgba(247, 108, 36, 1);
+    height: 40px;
+    width: 200px;
+    top: 532px;
+    padding: 12px, 28px, 12px, 28px;
+    border-radius: 8px;
+    gap: 10px;
+    border-style: none;
+    color: white;    
+}
+.homeCards{
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    gap: 70px;
+}
+.homeCards img{
+    width: 200px;
+    height: 150px;
+}
+
+.abtCompany{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 120px;
+    justify-content: center;
+}
+.cmpnyImg img{
+    width: 400px;
+    height: 350px;
+}
+.cmpnyTxt{
+    width: 400px;
+}
+.cmpnycontent{
+    width: 600px;
+}
+.cmpnycontent h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(247, 108, 36, 1);
+}
+.cmpnycontent h5{
+font-size: 12px;
+font-weight: 400;
+text-align: left;
+color: rgba(119, 120, 136, 1);
+}
+.cmpnyXtra{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.cmpny1Txt{
+    display: flex;
+    flex-direction: column;
+}
+.cmpny1{
+    display: flex;
+    flex-direction: row;
+}
+.cmpny1Txt h1{
+    font-size: 13px;
+}
+.cmpny1Txt h2{
+    width: 200px;
+    font-size: 11px;
+    font-weight: 200;
+}
+.cmpnyBtn button{
+    background: rgba(247, 108, 36, 1);
+    height: 40px;
+    width: 150px;
+    border-radius: 8px;
+    gap: 10px;
+    border-style: none;
+    color: white;   
+    margin-top: 20px; 
+}
+.blogsContent{
+    justify-content: center;
+}
+.blogsTitle{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+.blogsCard{
+display: flex;
+flex-direction: row;
+margin: auto;
+justify-items: center;
+align-self: center;
+margin-left: 40px;
+}
