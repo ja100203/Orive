@@ -1,11 +1,5 @@
 import * as React from "react";
 import "./BlogRead.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faUser,
-  faCalendar,
-  faArrowRight,
-} from "@fortawesome/free-solid-svg-icons";
 import handshake from "../../assets/images/Rectangle 10.png";
 import TextField from "@mui/material/TextField"
 import DialogContent from "@mui/material/DialogContent";

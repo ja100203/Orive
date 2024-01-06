@@ -1,5 +1,4 @@
 import React from 'react'
-import headerImg from '../../assets/images/people-taking-part-business-event 1.png'
 import './Header.css'
 
 function Header(props) {
