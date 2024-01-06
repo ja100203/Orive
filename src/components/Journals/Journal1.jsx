@@ -9,15 +9,19 @@ import Post1 from '../../assets/images/div.blog-post-thumb.png'
 import Post2 from '../../assets/images/div.blog-post-thumb (1).png'
 import Post3 from '../../assets/images/div.blog-post-thumb (2).png'
 import Post4 from '../../assets/images/div.blog-post-thumb (3).png'
+import Journal from '../../pages/Journal/Journal'
+
 
 
 
 
 function Journal1() {
   return (
+    <div>
+    <Journal/>
     <div className='jounal1'>
     <div className='jrnalLeft'>
-    <div className='jrnlTxt'>
+    <div className='jrnlText'>
     <h1>OUR BLOGS</h1>
     <h2>Read our Latest Blogs</h2>
     </div>
@@ -91,6 +95,7 @@ title="From Data to Discovery: Navigating the World of Data Science"
 author="Deanne Larson"
 />
 
+    </div>
     </div>
     </div>
     </div>

@@ -1,8 +1,8 @@
-/* .cardOuter{
-    padding: 50px;
-} */
+.cardOuter{
+    padding: 10px;
+}
 .cardInner{
-    width: 270px;
+    width: 300px;
     height: 350px;
     padding: 10px;
     box-shadow: 0px 16px 88px 0px rgba(0, 0, 0, 0.08);
@@ -10,11 +10,12 @@
     border-radius: 5px;
 }
 .cardImage img{
-    width:260px;
+    width:280px;
     height: 150px;
+margin-bottom: 10px;
 }
 .cardContent{
-width: 300px;
+width: 280px;
 }
 .cardHeader{
 width: 166px;
@@ -32,7 +33,7 @@ background-color: rgba(255, 239, 231, 1);
     padding: 5px;
 }
 .cardContent h3{
-    font-size: 14px;
+    font-size: 12px;
 }
 .cardInfo{
     display: flex;
@@ -51,3 +52,52 @@ background-color: rgba(255, 239, 231, 1);
     width: 260px;
     justify-content: left;
 }
+@media screen and (max-width: 750px) { 
+    .cardOuter{
+        margin: auto;
+    }
+    .cardInner{
+    margin: auto;
+    }
+}
+
+    @media screen and (max-width: 680px) { 
+        .cardInner{
+            width: 240px;
+        }
+        .cardImage img{
+            width: 220px;
+            height: 100px;
+        }
+        .cardContent{
+            width: 240px;
+        }
+        .cardInfo{
+            gap: 40px;
+        }.cardContent h3{
+            font-size: 10px;
+        }
+        .solid{
+            width: 200px;
+        }
+        }
+        @media screen and (max-width: 600px) { 
+            .cardInner{
+                width: 300px;
+            }
+            .cardImage img{
+                width: 280px;
+                height: 150px;
+            }
+            .cardContent{
+                width: 240px;
+            }
+            .cardInfo{
+                gap: 40px;
+            }.cardContent h3{
+                font-size: 10px;
+            }
+            .solid{
+                width: 260px;
+            }
+            }

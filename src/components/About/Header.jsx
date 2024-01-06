@@ -11,8 +11,8 @@ function Header(props) {
     <div class="background-image"></div>
     <div class="overlay-image"></div>
     <div className='headerText'>
-    <h3>{Title}</h3>
-    <h4>{Description1}<span style={{color:' rgba(247, 108, 36, 1)'}}> . {Description2}</span></h4>
+    <h3 className='headTitle'>{Title}</h3>
+    <h4 className='headerdesc'>{Description1}<span style={{color:' rgba(247, 108, 36, 1)'}}> . {Description2}</span></h4>
     </div>
     </div>
     </div>

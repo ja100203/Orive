@@ -28,13 +28,14 @@
     display: flex;
     flex-direction: column;
   }
-  .headerText h3{
+  .headerText .headTitle{
     font-weight: 700;
     line-height: 6px;
+    margin-bottom: 20px;
     font-size: 36px;
   }
-  .headerText h4{
+  .headerText .headerdesc{
     font-weight: 600;
     font-size: 18px;
-    gap: 15px
+    gap: 15px;
   }

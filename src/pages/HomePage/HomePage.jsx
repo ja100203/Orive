@@ -11,6 +11,9 @@ import Cards from '../../components/Cards/Cards';
 import Blogs1 from '../../assets/images/div.blog-post-thumb.png'
 import Blogs2 from '../../assets/images/div.blog-post-thumb (1).png'
 import Blogs3 from '../../assets/images/div.blog-post-thumb (2).png'
+import Accordian from '../../components/Accordion/Accordian'
+import Submit from '../../components/Submit/Submit';
+import Carousel from '../../components/Carousel/Carousel';
 
 
 function HomePage() {
@@ -43,10 +46,10 @@ function HomePage() {
                 </div>
                 <div className='cmpnytxt'>
                     <div className='cmpnycontent'>
-                        <h4>ABOUT OUR COMPANY</h4>
-                        <h3>We formed the IT service in 2018
+                        <h4 className='cmpnyTitle'>ABOUT OUR COMPANY</h4>
+                        <h3 className='cmpnyHead'>We formed the IT service in 2018
                             based on client requirements</h3>
-                        <h5>We're not just service providers; we're strategic partners committed to propelling your
+                        <h5 className='cmpnyDesc'>We're not just service providers; we're strategic partners committed to propelling your
                             business forward. Contact us for a transformative journey in the digital landscape.</h5>
                         <div className='cmpnyXtra'>
                             <div className='cmpny1'>
@@ -82,40 +85,63 @@ function HomePage() {
                 </div>
             </section>
 
+            <section>
+            </section>
+
+            <section className='services'>
+            <div className='serviceContent'>
+            <span style={{ color: 'rgba(247, 108, 36, 1)' }}>WE PROVIDE SERVICES</span>
+            <h4>The kind of services that our company
+            provides to our clients</h4>
+            </div>
+            <div className='serviceCards'>
+            <Carousel/>
+            </div>
+            </section>
+
             <section className='homeBlogs'>
-            <div className='blogsContent'>
-            <div className='blogsTitle'>
-            <span style={{color:'rgba(247, 108, 36, 1)'}}>OUR BLOG</span>
-            <h4>Read our Latest Blogs</h4>
+                <div className='blogsContent'>
+                    <div className='blogsTitle'>
+                        <span style={{ color: 'rgba(247, 108, 36, 1)' }}>OUR BLOG</span>
+                        <h4>Read our Latest Blogs</h4>
+                    </div>
+                    <div className='blogsCard'>
+                        <Cards
+                            imageSrc={Blogs1}
+                            title="Machine Learning"
+                            author="By Iqbal H. Sarker"
+                            date="Jan 15, 2023"
+                            content="Machine Learning Trends Shaping Tomorrow's Technology Landscape"
+                        />
+                        <Cards
+                            imageSrc={Blogs2}
+                            title="Data Science"
+                            author="By Deanne Larson"
+                            date="Feb 26, 2023"
+                            content="From Data to Discovery: Navigating the World of Data Science"
+                        />
+                        <Cards
+                            imageSrc={Blogs3}
+                            title="Fraud Detection"
+                            author="By Yang Bao"
+                            date="Mar 18, 2023"
+                            content="Demystifying Fraud Detection: A Simple Guide for Security"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <section className='feedback'>
+            <div className='faqsForm'>
+            <Submit/>
             </div>
-            <div className='blogsCard'>
-           <Cards 
-        imageSrc={Blogs1} 
-        title="Machine Learning"
-        author="By Iqbal H. Sarker"
-        date="Jan 15, 2023"
-        content="Machine Learning Trends Shaping Tomorrow's Technology Landscape"
-      />
-            <Cards
-            imageSrc={Blogs2} 
-            title="Data Science"
-            author="By Deanne Larson"
-            date="Feb 26, 2023"
-            content="From Data to Discovery: Navigating the World of Data Science"
-            />
-            <Cards
-            imageSrc={Blogs3} 
-            title="Fraud Detection"
-            author="By Yang Bao"
-            date="Mar 18, 2023"
-            content="Demystifying Fraud Detection: A Simple Guide for Security"
-            />
-            </div>
+            <div className='faqs'>
+            <Accordian/>
             </div>
             </section>
 
             <section>
-            <Testimonials/>
+                <Testimonials />
             </section>
         </div>
 

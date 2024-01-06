@@ -1,0 +1,44 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+}
+
+.contactLeft{
+    width: 50%;
+    margin: auto;
+}
+.contactRight{
+    width: 40%;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.contactTxt{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.contactTitle{
+    color: rgba(247, 108, 36, 1);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.contactDesc{
+    color: rgba(119, 120, 136, 1);
+    font-size: 15px;
+}
+.midcontact img{
+    height: 600px;
+}
+@media screen and (max-width:960px) {
+    .contactLeft{
+        width: 60%;
+    }
+}
+@media screen and (max-width:750px) {
+    .contactLeft{
+        width: 50%;
+    }
+}

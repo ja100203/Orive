@@ -1,0 +1,44 @@
+.blog-content-card {
+  width: 80%;
+  margin: 20px 70px;
+  border: none;
+  color: rgba(119, 120, 136, 1);
+  font-size: 15px;
+}
+.blog-read-img {
+  height: 15vw;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.form-blog {
+  text-align: center;
+  padding: 30px;
+  margin: 20px 70px;
+  width: 75%;
+  box-shadow: 0px -25px 20px -30px rgba(0, 0, 0, 0.45),
+    25px 0px 20px -30px rgba(0, 0, 0, 0.45),
+    0px 25px 20px -30px rgba(0, 0, 0, 0.45),
+    -25px 0px 20px -30px rgba(0, 0, 0, 0.45);
+  border-radius: 5px;
+}
+.submit-blog-read {
+  border-radius: 5px;
+  height: 45px;
+  width: 100%;
+  border: none;
+  color: white;
+  background-color: rgba(247, 108, 36, 1);
+  margin: 10px 0;
+}
+.need-help {
+  font-weight: 700;
+  font-size: 25px;
+}
+.blog-read-content {
+  display: flex;
+}
+@media(max-width:1000px){
+    .blog-read-content{
+        flex-direction: column;
+    }
+}

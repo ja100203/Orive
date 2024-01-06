@@ -1,0 +1,95 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:98px;
+}.navContent{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap:1.5rem;
+    margin-right: 1.5rem;
+}
+.navBtn{
+    font-weight: 600;
+    font-size: 18px;
+    color:black ;
+    text-decoration: none;
+}
+.navBtn:hover{
+    color: #F76C24;
+    cursor: pointer;
+}
+.callBtn:hover{
+    cursor:pointer;
+}
+.connectBtn{
+    cursor:pointer;
+}
+.connectBtn{
+    width:10rem;
+    height:3rem;
+    padding: 12px, 28px, 12px, 28px;
+    border-radius: 8px;
+    /* gap: 10px; */
+    background:#F76C24;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: white;
+}
+.callBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.callIcon{
+    font-size: 38px;
+    color: #F76C24;
+}
+.phoneNum{
+    font-weight: 600;
+    font-size: 18px;
+    text-align:left;
+    padding-left: 10px;
+}
+.phoneTxt{
+    font-weight: 600;
+    font-size: 14px;
+    text-align:left;
+    padding-left: 10px;
+    color: #F76C24;
+}
+
+
+.navHamBtn{
+    color: #F76C24;
+    font-weight: 600;
+    font-size: 38px;
+    padding-right:10px;
+}
+.navHamBtn:hover{
+    cursor: pointer;
+}
+.navContentTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;;
+}
+@media only screen and (max-width: 950px) {
+    .navContent{
+        display:None;
+    }
+  }
+  @media only screen and (min-width: 950px) {
+    .navHamBtn{
+        display:None;
+    }
+    .navContentTwo{
+        display:None;
+    }
+  }

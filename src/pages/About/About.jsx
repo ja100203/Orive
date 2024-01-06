@@ -23,10 +23,10 @@ function About() {
           <div className='missionHeader'>Empowering Business Excellence Through Innovative IT Solutions</div>
           <div className='missionContent'>At Orive Solutions, our mission is to be the driving force behind business success by providing innovative and tailored IT solutions. We strive to empower organizations with cutting-edge technologies that enhance efficiency, foster innovation, and fuel sustainable growth. Our commitment is to be a trusted partner on every step of our clients' digital transformation journey.</div>
           <div className='missionExtra'>
-            <ul>
-              <li>Delivering unparalleled IT solutions that exceed client expectations.</li>
-              <li>Fostering a culture of innovation to stay ahead in the dynamic tech landscape.</li>
-              <li>Building enduring partnerships based on trust, transparency, and mutual success.</li>
+            <ul className='vu'>
+              <li className='vl'>Delivering unparalleled IT solutions that exceed client expectations.</li>
+              <li className='vl'>Fostering culture of innovation to stay ahead dynamic tech landscape.</li>
+              <li className='vl'>Building enduring partnerships based on trust and mutual success.</li>
             </ul>
           </div>
           <div className='abtbtn'>
@@ -58,13 +58,13 @@ function About() {
               <div>
                 <img src={story1} width={40} height={40} alt="" />
               </div>
-              <h3>We have more than 5 years of experiences</h3>
+              <div>We have more than 5 years of experiences</div>
             </div>
             <div className='storyCase'>
               <div>
                 <img src={story2} width={40} height={40} alt="" />
               </div>
-              <h3>We use professional and experienced person</h3>
+              <div>We use professional and experienced person</div>
             </div>
           </div>
         </div>
@@ -79,10 +79,10 @@ function About() {
           <div className='vissionHeader'>Shaping the Future of Digital Transformation</div>
           <div className='vissionContent'>At Orive Solutions, we envision a future where we are at the forefront of digital evolution, setting industry standards and pioneering transformative technologies. Our vision is to be the go-to partner for businesses seeking innovative and sustainable IT solutions. We aspire to lead the way in anticipating and meeting the ever-changing needs of our clients in the rapidly evolving digital landscape.</div>
           <div className='vissionExtra'>
-            <ul>
-              <li>Setting industry benchmarks for innovation and technological excellence.</li>
-              <li>Anticipating and adapting to emerging trends to stay ahead of the curve.</li>
-              <li>Continuously enhancing our offerings to provide unparalleled value to clients.</li>
+            <ul className='vu'>
+              <li className='vl'>Setting industry benchmarks for innovation and technological excellence.</li>
+              <li className='vl'>Anticipating and adapting to emerging trends to stay ahead of the curve.</li>
+              <li className='vl'>Continuously enhancing our offerings to provide unparalleled to clients.</li>
             </ul>
           </div>
           <div className='abtbtn'>

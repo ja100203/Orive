@@ -1,0 +1,13 @@
+.accordian-section{
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+}
+.addIcon{
+    color: rgba(247, 108, 36, 1);
+}
+@media screen and (max-width: 960px) {
+    .submit{
+    width: 300px;
+}
+}

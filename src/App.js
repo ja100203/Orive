@@ -1,13 +1,11 @@
 import React from 'react'
-import About from './pages/About/About'
-import HomePage from './pages/HomePage/HomePage'
-import Submit from './components/Submit/Submit'
-import Journal from './pages/Journal/Journal'
+import Routte from './Routes/Routte'
+
 
 function App() {
   return (
     <div>
-    <Journal/>
+    <Routte/>
     </div>
   )
 }

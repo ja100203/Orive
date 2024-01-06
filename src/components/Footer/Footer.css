@@ -1,0 +1,89 @@
+.footer{
+    background:url('../../assets//images/Group\ 69\ \(1\).png');
+    color:white;
+    padding: 1rem;
+    padding-top:2rem;
+}.footerHead{
+    font-weight: 700;
+    font-size:22px;
+    padding-bottom: 3rem;
+}
+.footerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    justify-content: space-evenly;
+}
+.footerSubContainer{
+    width: 200px;
+    text-align: left;
+}
+.hrBorder{
+    border-top: 1px solid #B2B2B2;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}
+.footerNormalText{
+    font-size:12px;
+    font-weight: 400;
+    color: white;
+    line-height: 25px;
+    padding-bottom: 1rem;
+}
+.footerHighlightTextOne{
+    font-size:17px;
+    font-weight: 400;
+    color:#F76C24;
+    width:4.3rem;
+}
+.footerHighlightText{
+    font-size:16px;
+    font-weight: 400;
+    color:#F76C24;
+}
+.footerContentSet{
+    display: flex;
+}
+.footerSocialIconsContainer{
+    display: flex;
+    gap:1rem;
+    padding-left: 1rem;
+}
+.footerSocialIcons{
+    color:#F76C24;
+    background: white;
+    border-radius: 50%;
+    height: 2rem;
+    width:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputEmail{
+    width:200px;
+    background: white;
+    font-size: 14px;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+}
+.inputContainer{
+    display: flex;
+    border: none;
+}
+.subBtn{
+    border: none;
+    width:130px;
+    background: #F76C24;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:2.5rem;
+    color:white;
+}
+.subBtn:hover{
+    cursor: pointer;
+}

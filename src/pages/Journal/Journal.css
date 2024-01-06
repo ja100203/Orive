@@ -10,15 +10,15 @@
 height: 35px;
 border-radius: 5px;
 background-color: rgba(255, 239, 231, 1);
-
+color: rgba(254, 93, 20, 1);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+padding: 5px;
 }
-.journalTitle h3{
-    color: rgba(254, 93, 20, 1);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: center;
-    padding: 5px;
+.jrnlDesc{
+    padding-top: 20px;
 }
 .journalCnt{
     width: 500px;
@@ -35,4 +35,19 @@ background-color: rgba(255, 239, 231, 1);
     border-style: none;
     color: white;   
     margin-top: 20px; 
+}
+@media screen and (max-width: 960px) {
+    .journalImg img{
+        width: 350px;
+        padding: 10px;
+    }
+    
+}
+@media screen and (max-width: 750px) {
+    .journalImg img{
+        width: 260px;
+        height: 220px;
+        padding: 10px;
+
+    }
 }

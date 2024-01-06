@@ -5,8 +5,10 @@ import journal from '../../assets/images/div.blog-post-thumb.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faCalendar, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Journal1 from '../../components/Journals/Journal1';
+import BlogRead from '../../components/BlogRead/BlogRead';
 
-function Journal() {
+
+function Journal({selectedJournal}) {
   return (
     <div>
     <Header
@@ -17,9 +19,9 @@ function Journal() {
     <section className='journals'>
     <div className='journalCnt'>
     <div className='journalTitle'>
-    <h3>Machine Learning</h3>
+    Machine Learning
     </div>
-    <h4>Machine Learning Trends Shaping Tomorrow's Technology Landscape</h4>
+    <h4 className='jrnlDesc'>Machine Learning Trends Shaping Tomorrow's Technology Landscape</h4>
     <div className='cardInfo'>
             <div className='Info'>
               <FontAwesomeIcon icon={faUser} color='rgba(254, 93, 20, 1)' />
@@ -43,10 +45,11 @@ function Journal() {
     <img src={journal} alt="" />
     </div>
     </section>
-
     <section className='journalType'>
-    <Journal1/>
-    </section>
+    {selectedJournal === 'journal1' && <Journal1/>}
+    {selectedJournal === 'journalDetail' && <BlogRead />}
+  </section>
+
     </div>
   )
 }

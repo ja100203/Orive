@@ -21,7 +21,7 @@ body{
 .homeBtn button{
     background: rgba(247, 108, 36, 1);
     height: 40px;
-    width: 200px;
+    width: 250px;
     top: 532px;
     padding: 12px, 28px, 12px, 28px;
     border-radius: 8px;
@@ -40,11 +40,25 @@ body{
     width: 200px;
     height: 150px;
 }
+@media screen and (max-width: 960px) {
+.homeCards{
+    margin: auto;
+    gap: 10px;
+    left: 10%;
+}
+}
+@media screen and (max-width: 750px) {
+    .homeCards img{
+        width: 160px;
+        height: 150px;
+    }
+    }
 
 .abtCompany{
     display: flex;
     flex-direction: row;
     gap: 40px;
+    padding: 30px;
     margin-top: 120px;
     justify-content: center;
 }
@@ -53,28 +67,35 @@ body{
     height: 350px;
 }
 .cmpnyTxt{
-    width: 400px;
+    width: 500px;
+    padding: 30px;
 }
 .cmpnycontent{
-    width: 600px;
+    width: 500px;
 }
-.cmpnycontent h4{
+.cmpnycontent .cmpnyTitle{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
     color: rgba(247, 108, 36, 1);
 }
-.cmpnycontent h5{
+.cmpnycontent .cmpnyHead{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.cmpnycontent .cmpnyDesc{
 font-size: 12px;
 font-weight: 400;
 text-align: left;
 color: rgba(119, 120, 136, 1);
+margin-bottom: 20px;
 }
 .cmpnyXtra{
     display: flex;
     flex-direction: row;
     gap: 50px;
+    padding: 10px;
 }
 .cmpny1Txt{
     display: flex;
@@ -88,8 +109,8 @@ color: rgba(119, 120, 136, 1);
     font-size: 13px;
 }
 .cmpny1Txt h2{
-    width: 200px;
-    font-size: 11px;
+    width: 170px;
+    font-size: 10px;
     font-weight: 200;
 }
 .cmpnyBtn button{
@@ -102,6 +123,28 @@ color: rgba(119, 120, 136, 1);
     color: white;   
     margin-top: 20px; 
 }
+@media screen and (max-width: 960px) {
+   .abtCompany{
+    margin-top: 100px;
+   }
+    .cmpnyImg img{
+        width: 250px;
+        height: 300px;
+    }
+    .cmpnycontent{
+        width: 300px;
+    }
+    .cmpnyXtra{
+        gap: 5px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .cmpnyXtra{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
 .blogsContent{
     justify-content: center;
 }
@@ -113,10 +156,84 @@ color: rgba(119, 120, 136, 1);
     font-size: 16px;
 }
 .blogsCard{
-display: flex;
-flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
 margin: auto;
 justify-items: center;
 align-self: center;
-margin-left: 40px;
+margin-left: 10px;
 }
+@media screen and (max-width: 960px) {
+.blogsCard{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
+}
+@media screen and (max-width: 750px) {
+    .blogsCard{
+        margin: auto;
+    }
+    }
+    @media screen and (max-width: 560px) {
+        .blogsCard{
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr); 
+        }
+    }
+
+
+.feedback{
+     background: url('../../assets/images/Mask\ group.png')  center/cover no-repeat;
+     display: flex;
+    }
+    .faqs{
+        width: 40%;
+        margin: auto;
+    }
+    .faqsForm{
+        width: 50%;
+        padding: 50px;
+    }
+    @media screen and (max-width: 960px) {
+   .faqs{
+    width: 50%;
+    margin-left: -10px;
+   }
+    }
+    @media screen and (max-width: 960px) {
+        .feedback{
+        display: flex;
+        flex-direction: column;
+        }
+        .faqs{
+            width: 80%;
+            margin: auto;
+           }
+         }
+
+         .services{
+            background: url('../../assets/images/Group\ 69\ \(1\).png');
+         }
+         .serviceContent{
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+         }
+         .serviceContent span{
+font-size: 16px;
+font-weight: 500;
+         }
+         .serviceContent h4{
+color: white;
+margin-top: 10px;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+         }
+    
+
