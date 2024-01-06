@@ -6,6 +6,8 @@
 .contactLeft{
     width: 50%;
     margin: auto;
+    display: flex;
+    flex-direction: row;
 }
 .contactRight{
     width: 40%;
@@ -42,3 +44,16 @@
         width: 50%;
     }
 }
+@media screen and (max-width:650px) {
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .contactLeft{
+        width: 100%;
+    }
+    .contactRight{
+        width: 90%;
+    }
+}
+

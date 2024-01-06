@@ -52,10 +52,11 @@ function Contact() {
       </DialogContent>
     </div>
     </div>
-      </div>
       <div className='midcontact'>
       <img   src={line1} alt=""  />
 </div>
+</div>
+
       <div className='contactRight'>
       <div className='contactTxt'>
       <span className='contactTitle'>Address:</span>
